@@ -125,6 +125,5 @@
 | `<var>` |	Defines a variable.
 | `<video>` |	Embeds video content in an HTML document.
 | `<wbr>` |	Represents a line break opportunity.
-|
-|[Index] (https://github.com/genaro14/HTML_Basics/blob/master/index.html)
-|
+
+[Index] (https://github.com/genaro14/HTML_Basics/blob/master/index.html)

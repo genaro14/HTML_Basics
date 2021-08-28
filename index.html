@@ -4,7 +4,8 @@
 <!-- Tipo 1: <h1></h1> -->
 <!-- Tipo 2: <br>, <hr/> -->
 	<head>
-		<title> Básico de HTML</title>
+		<title> Básico de HTML5</title>
+		<!--- ><link rel="stylesheet" href="estilo.css"> Link a hoja de estilo -->
 	</head>
 	<body>
 		<!-- Etiquetas de Título-->
@@ -39,13 +40,112 @@
 		 <hr/><!--Linea -->
 		<h2>Enlaces</h2>
 		<h4>Link</h4>
-		<a href="https://github.com/genaro14/basicsHTML">Ir al sitio URL </a> <!--Ruta Absoluta -->
+		<a href="https://github.com/genaro14/basicsHTML">Ir al sitio Repo </a> <!--Ruta Absoluta -->
 		<h4>Imagen Local</h4>
 		<a href="img/logo.jpg"> Imagen </a> <!--Ruta Relativa -->
 		<h4>Link new tab</h4>
 		<a target="blank" href="https://github.com/genaro14/basicsHTML">Ir al sitio URL </a> <!--Ruta Absoluta, nueva pestaña -->
 		<h4>Imagen new tab</h4>
 		<a target="blank" href="img/logo.jpg"> Imagen </a> <!--Ruta Relativa -->
+		<h4>Enviar Correo</h4>
+		<a href="mailto:contacto@cloud.com" title="Enviar correo Electrónico"> Enviar Mail </a>
+		<!--- ><script src="app.js" ></script> Link a JS -->
+		<hr/><!--Linea -->
+	 <h2>Listas</h2>
+	 <ul><!--Lista Desordenada -->
+		 <li> Item #1</li>
+		 <li> Item #2</li>
+		 <li> Item #3</li>
+		 <li> Item #5</li>
+		 <li> Sublista
+			 <ul>
+			 	<li>sub item #1</li>
+			 	<li>sub item #2</li>
+		 	 </ul>
+		 </li>
+	 </ul>
+	 <h2>Lista Desordenada</h2>
+	 <ol>
+		 <li> Item #1</li>
+		 <li> Item #2</li>
+		 <li> Item #3</li>
+		 <li> Item #5</li>
+		 <li> Sublista
+			 <ol>
+			 	<li>sub item #1</li>
+			 	<li>sub item #2</li>
+			</ol>
+		 </li>
+	 </ol>
+	 <hr/><!--Linea -->
+	 <h2>Imágenes</h2>
+	 <h4>Local</h4>
+	 <img src="img/logo.jpg" alt="Logo demo" title="Descripción del Logo" width="300" height="200">
+	 <h4>Remoto</h4>
+	 <img src="http://cdn.playbuzz.com/cdn/9df6f6c5-21e4-49c7-a655-988575fa325a/4d982b7d-b202-4df1-8f7d-41c362f3e73a.jpg" alt="Logo demo" title="Descripción del Logo" width="300" height="200">
+	 <hr/><!--Linea -->
+	 <h2>Tablas</h2>
+	 <table>
+		 <tr><!--Fila -->
+			 <td>Elemento #1</td>  <!--Columna -->
+			 <td>Elemento #2</td>
+			 <td>Elemento #3</td>
+		 </tr>
+		 <tr>
+			 <td>Elemento #4</td>
+			 <td>Elemento #5</td>
+			 <td>Elemento #6</td>
+		 </tr>
+		 <tr>
+			 <td>Elemento #7</td>
+			 <td>Elemento #8</td>
+			 <td>Elemento #9</td>
+		 </tr>
+	 </table >
+
+	 <hr/><!--Linea -->
+	 <h2>Formularios</h2>
+	 <form>
+	 	 <label for="nombre">Ingrese Nombre</label>
+		 <input type="text"></br>
+		 <label for="nombre">Ingrese Nombre (con value)</label>
+		 <input type="text" value="Escribe tu nombre"></br>
+		 <label for="nombre">Ingrese DNI (con Placeholder)</label>
+		 <input type="text" placeholder="Escribe Doc"></br>
+		 <label for="dni">Ingrese DNI (con Placeholder y limite)</label>
+		 <input type="text" placeholder="Documento limite 8" maxlength="8" name="dni" id="nombre" class="" ></br>
+		 <label for="password">Ingrese password </label>
+		 <input type="text" placeholder="Password" maxlength="8" name="pass" id="password" class="" ></br>
+		 <label for="pass2">Ingrese password Limite 4</label>
+		 <input type="password" placeholder="Escribe Password con limite 4" maxlength="4"id= "pass2"></br>
+		 <label for="mail">Correo Electrónico</label>
+		 <input type="mail" placeholder="Email" id= "mail"></br>
+		 <label for="cbx">Checkbox</label>
+		 <input type="checkbox" id= "cbx"></br>
+		 <label for="cbxp">Eres Humano?</label>
+		 <input type="radio" id= "cbxp"> Persona
+		 <input type="radio" id= "cbxr"> Robot </br>
+		 <label for="button">Botón Enviar</label>
+		 <input type="button" value="enviar" id= "buttton"></br>
+		 <label for="button">Botón Submit</label>
+		 <input type="submit" value="Submit" id= "buttton"></br>
+		 <label for="Desyauno">Select Bebida</label>
+		 <select name="" id="Desayuno?">
+			 <option value="Cafe">Café</option>
+			 <option value="Chocolate">Chocolate</option>
+			 <option value="tea">Té</option>
+		 </select></br>
+		 <label for="color">Color</label>
+		 <input type="color"  id= "color"></br>
+		 <label for="range">Rango</label>
+		 <input type="range"  id= "range"></br>
+
+
+
+
+
+
+	 </form>
 
 	</body>
 <html>
