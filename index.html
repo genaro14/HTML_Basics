@@ -4,12 +4,16 @@
 <!-- Tipo 1: <h1></h1> -->
 <!-- Tipo 2: <br>, <hr/> -->
 	<head>
-		<title> Básico de HTML5</title>
-		<!--- ><link rel="stylesheet" href="estilo.css"> Link a hoja de estilo -->
+		<title> Básico de HTML</title>
+		<!--- ><link rel="stylesheet" href="css/estilo.css"> Link a hoja de estilo -->
+		<link rel= "shortcut icon" type="image/x-icon" href="img/favicon.jpg">
+		<meta name="HTML BASICS" content="HTML 5 basic usage"
+		
+
 	</head>
 	<body>
 		<!-- Etiquetas de Título-->
-		<h1>Estructuras Básicas de Html</h1> <!-- Solo 1 por página -->
+		<h1>Estructuras Básicas de Html5</h1> <!-- Solo 1 por página -->
 		<h2>Título 2</h2>
 		<h3>Título 3</h3>
 		<h4>Título 4</h4>
@@ -123,8 +127,8 @@
 		 <label for="cbx">Checkbox</label>
 		 <input type="checkbox" id= "cbx"></br>
 		 <label for="cbxp">Eres Humano?</label>
-		 <input type="radio" id= "cbxp"> Persona
-		 <input type="radio" id= "cbxr"> Robot </br>
+		 <input type="radio" name="persona" value= "Persona">Humano
+		 <input type="radio" name="persona" value= "Robot"> Robot</br>
 		 <label for="button">Botón Enviar</label>
 		 <input type="button" value="enviar" id= "buttton"></br>
 		 <label for="button">Botón Submit</label>
@@ -139,13 +143,51 @@
 		 <input type="color"  id= "color"></br>
 		 <label for="range">Rango</label>
 		 <input type="range"  id= "range"></br>
-
-
-
-
-
-
 	 </form>
+
+	 <hr/><!--Linea -->
+	 <h2>Layout</h2>
+	 <p>3 Partes Principales</p>
+	 <ul><!--Lista Desordenada -->
+		<li>Header</li>
+		<li>Contenido</li>
+		<li>Pie de página</li>
+	 </ul>
+
+	 <header>
+		 <div>
+			 <p>test</p>
+			 <img src="img/acme.jpg" alt="logo_demo" title="Yunques Acme" width="300" height="200"></img>
+		 </div>
+		 <nav>
+			 <ul>
+				 <li><a href="#">inicio</a></li>
+				 <li><a href="#">Texto</a></li>
+				 <li><a href="#">Listas</a></li>
+				 <li><a href="#">Imágenes</a></li>
+				 <li><a href="#">Tablas</a></li>
+				 <li><a href="#">Formularios</a></li>
+				 <li><a href="#">Estructura</a></li>
+				 <li><a href="#">Metadatos</a></li>
+			 </ul>
+		 </nav>
+	 </header>
+	<section class="wrapper">
+		<section class="main">
+			<article>
+				<h2>Artículo Principal. Finibus Bonorum et Malorum</h2>
+				<p>"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"	</p>
+			</article>
+			<aside>
+				<h3>Barra Lateral</h3>
+				<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+			</aside>
+		</section>
+		<footer>
+			<p>HTML5 Basics - 2021</p>
+		</footer>
+	</section>
+
 
 	</body>
 <html>
