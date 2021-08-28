@@ -6,5 +6,5 @@
 
 
 
-[Link](https://github.com/genaro14/HTML_Basics/blob/master/index.html)
-[Tag List](.alltags.md)
+[Link](https://github.com/genaro14/HTML_Basics/blob/master/index.html)    
+[Tag List](https://github.com/genaro14/HTML_Basics/blob/master/allTags.md)

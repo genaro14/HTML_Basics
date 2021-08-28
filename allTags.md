@@ -9,7 +9,6 @@
 | `<abbr>`    | Defines an abbreviated form of a longer word or phrase.
 | `<acronym>` | Obsolete Defines an acronym. Use `<abbr>` instead.
 | `<address>` | Specifies the author's contact information.
-| `<applet>`  | Obsolete Embeds a Java applet (mini Java applications) on the page. Use `<object>` instead.
 | `<area>` 	   | Defines a specific area within an image map.
 | `<article>`  | Defines an article.
 | `<aside>` 	 | Defines some content loosely related to the page content.
@@ -32,9 +31,9 @@
 | `<col>`  |	Defines attribute values for one or more columns in a table.
 | `<colgroup>` |	Specifies attributes for multiple columns in a table.
 | `<data>` |	Links a piece of content with a machine-readable translation.
-| `<datalist>` 	Represents a set of pre-defined options for an `<input>` element.
-| `<dd>` 	Specifies a description, or value for the term (`<dt>`) in a description list (`<dl>`).
-| `<del>` 	Represents text that has been deleted from the document.
+| `<datalist>` |	Represents a set of pre-defined options for an `<input>` element.
+| `<dd>` |	Specifies a description, or value for the term (`<dt>`) in a description list (`<dl>`).
+| `<del>` |	Represents text that has been deleted from the document.
 | `<details>` |	Represents a widget from which the user can obtain additional information or controls on-demand.
 | `<dfn>` |	Specifies a definition.
 | `<dialog>` |	Defines a dialog box or subwindow.
@@ -127,5 +126,5 @@
 | `<video>` |	Embeds video content in an HTML document.
 | `<wbr>` |	Represents a line break opportunity.
 |
-| https://github.com/genaro14/HTML_Basics/blob/master/index.html
+|[Index] (https://github.com/genaro14/HTML_Basics/blob/master/index.html)
 |
