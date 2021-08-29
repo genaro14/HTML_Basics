@@ -1,0 +1,255 @@
+/* CSS Basic Set */
+
+/* CSS https://developer.mozilla.org/es/docs/Web/HTML */
+/* CSS contiene Reglas /*
+
+/* Comentario de una sola línea */
+/*
+Un comentario
+que se extiende
+en varias
+líneas
+/* SELECTORES */
+
+/* Selector Universal, poco usado
+ *{
+  margin:0
+  padding:0
+}
+body { Selector de Etiqueta para body
+  background:FAFAFA;
+
+}
+*/
+h2 { /* Selector de Etiqueta para h2*/
+  color:#6b6666;
+}
+/* Selectores Descendentes */
+p a {
+  font-size:16px;
+  color:green;
+}
+/* Selectores de Clase  */
+.orange {
+  color:cyan;
+}
+/* Selectores de Clase descendente  */
+p .orange {
+  color:orange;
+}
+ /* Selectores con propiedades  */
+a[href="https://sitio.cloud"] {
+  color:red;
+  size: 30px;
+}
+/* Selectores con id
+#algunid {
+  color:
+}
+/* Unidades de Medida  */
+/* Relativas  Em,Erm*,%/
+body {
+  font-size: 14px;
+}
+p {
+  font-size: 1.25em;/* Em es relativo al tamaño standard del elemento padre*/
+/* Absolutas:  Px*/
+/* Unidades de Color  */
+/* Palabras Clave, RGB decimal, RGB hexadecimal, RGB porcentual, RGB numérico. RGBA
+Palabras clave
+color:red;
+
+RGB decimal
+color:rgb(53,131,44);
+
+RGB Hexadecimal
+color:#4D9B44;
+
+RGB porcentual
+color:rgb(49,163,239)
+
+RGBA. Añade canal alpha, transparencia
+color:rgb(49,163,239,.5)
+*/
+
+/*
+ Modelo de Caja
+ https://developer.mozilla.org/es/docs/Web/CSS/CSS_Box_Model
+ https://www.cristalab.com/curso-html/modelo-caja/
+ */
+ /*Posicionamiento*/
+ div.caja {
+   width:150px;
+   background: #8B6D90;
+   color:#fff;
+   font-size: 20px;
+   padding: 20px 20px;
+
+   float:left
+}
+ /* Fondos  */
+ body {
+   background:#FAFAFA
+   /*background-image:url (paper.jpg) Imágen de fondo */
+ }
+
+ /* Texto y Formato  */
+h1 { /* Título Principal  */
+  font-family: Sans-serif, Sans-serif, Arial;
+  font-weight: bold;
+  text-align: center;
+  background: #ccc;
+  text-shadow: 1px 1px 1px #765e67;
+
+}
+p { /* Párrafo  */
+  font-family: Sans-serif, Arial, Helvetica, "Myriad Pro"
+  font-size: 20px;
+  font-weight:normal ;
+  text-align: justify;
+  text-decoration:; /* Subrayado, tachado */
+  text-transform:;; /* Mayúsculas-Minúsculas, Capitales forazado */
+  letter-spacing:; /* Espacio entre letras */
+
+}
+ /* Enlaces  */
+ a {
+   font-size: 20px;
+   color:orange;
+   text-decoration: none;
+
+ }
+
+ a:link {
+   font-size: 21px;
+   color:#DF1338;
+ }
+ a:visited {
+   color: blue;
+   text-decoration: line-through;
+ }
+
+
+/* Botón */
+a.boton{
+font-size: 20px
+text-decoration: none;
+margin: 10px 20px;
+display: inline-block;
+background: #3BA7E1;
+color: #fff;
+padding: 10px 20px;
+box-shadow: 0px 5px 0px #1D64A6;
+}
+a:hover {
+  box-shadow: 0px 2px 0px #1D64A6;
+  background: #765e67;
+}
+a:active {
+box-shadow: none;
+}
+div img {
+  width:250px;
+  height: auto;
+  margin: auto;
+  border-radius:5px;
+  /* box-shadow: 5px 5px 5px #000;  Se ve mal */
+  padding: 10px;
+  border: 2px solid #000;
+  mar
+}
+/* Listas */
+ul > ul > ul {
+  /* list-style-type: circle;  cambia tipo de bloque, desde el tercer anidado */
+}
+
+ol {
+  list-style-type: decimal-leading-zero; /*agrega un 0 en listas largas*/
+  /* list-style-type: lower-latin; Letras minusculas*/
+  /* list-style-type:upper-alpha; Letras Mayus*/
+  /* list-style-type: upper-roman; Romanos, etc*/
+}
+
+.menu {
+  width: 100%;
+  background: #000;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li{
+  display: inline-block;
+}
+
+.menu li a{
+  padding: 10px 20px;
+  display:inline-block;
+  color:#fff;
+}
+
+
+.menu li a:hover{
+background:#765e67
+
+}
+/* Tablas */
+table { /* Recuadro General */
+  border:1px solid #000;
+  border-collapse: collapse;
+}
+
+table td{ /* Recuadro Por celda */
+  border:1px solid #000;
+  padding:10px;
+}
+
+table tr:hover{ /* Hover por fila */
+  background:#ccc;
+}
+
+table td:hover{ /* Hover por fila */
+  background:#585355;
+  color:#fff;
+}
+
+/* Formularios */
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type=mail], textarea {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type=submit] {
+  width: 100%;
+  background-color: #3BA7E1;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #765e67;
+}
+
+div.form {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
