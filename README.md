@@ -1,4 +1,4 @@
-# HTML and  CSS BASIC SET   
+# HTML and  CSS Basic Set   
     Repo
        |index.html
        |--css

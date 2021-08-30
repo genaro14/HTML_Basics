@@ -11,16 +11,26 @@ en varias
 líneas
 /* SELECTORES */
 
-/* Selector Universal, poco usado
+/* Selector Universal, poco usado*/
  *{
   margin:0
   padding:0
 }
 body { Selector de Etiqueta para body
-  background:FAFAFA;
+  background: #e6e6e6;
 
 }
-*/
+header {
+  width: 90%
+  max-width:1000px;
+  margin:20px auto;
+}
+header nav {
+  background: #528FD5;
+}
+
+
+
 h2 { /* Selector de Etiqueta para h2*/
   color:#6b6666;
 }
@@ -80,12 +90,14 @@ color:rgb(49,163,239,.5)
  /*Posicionamiento*/
  div.caja {
    width:150px;
+   width:150px;
    background: #8B6D90;
    color:#fff;
    font-size: 20px;
    padding: 20px 20px;
-
-   float:left
+   float:left;
+   position: relative;
+   bottom:180px;
 }
  /* Fondos  */
  body {
@@ -117,7 +129,6 @@ p { /* Párrafo  */
    font-size: 20px;
    color:orange;
    text-decoration: none;
-
  }
 
  a:link {
@@ -188,7 +199,6 @@ ol {
   color:#fff;
 }
 
-
 .menu li a:hover{
 background:#765e67
 
@@ -253,3 +263,36 @@ div.form {
   background-color: #f2f2f2;
   padding: 20px;
 }
+
+input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.main .articles{
+  width:70%;
+  float:left;
+}
+aside {
+  width:30%;
+  background:#765e67;
+  position:relative;
+  bottom: 210px;
+  left:890px;
+  padding: 10px 10px;
+  border-radius: 5%;
+}
+footer {
+  background: black;
+  color: #fff;
+  padding: 20px;
+  box-sizing: border-box;
+  clear:both;
+  text-align: center;
+}
+div.principal {
+  width:65%;
