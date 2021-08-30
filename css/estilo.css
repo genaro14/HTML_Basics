@@ -109,7 +109,6 @@ color:rgb(49,163,239,.5)
 h1 { /* Título Principal  */
   font-family: Sans-serif, Sans-serif, Arial;
   font-weight: bold;
-  text-align: center;
   background: #ccc;
   text-shadow: 1px 1px 1px #765e67;
 
@@ -232,6 +231,7 @@ input[type=text], select {
   border: 1px solid #ccc;
   border-radius: 4px;
   box-sizing: border-box;
+
 }
 input[type=mail], textarea {
   width: 100%;
@@ -296,3 +296,15 @@ footer {
 }
 div.principal {
   width:65%;
+}
+.nombreizq {
+    text-align: left;
+    align-self: left;
+    !important;
+}
+
+div h3.formulario {
+    text-align: left;
+    align-self: left;
+    !important;
+}
